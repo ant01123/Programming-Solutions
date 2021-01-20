@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int choice;
+
+int main() {
+	cout << "1. Water	2. Coke		3. Pepsi" << endl;
+	cout << "4. Sprite	5. Juice" << endl;
+	cin >> choice;
+	if (choice==1) {
+		cout << "Enjoy your water.";
+	}
+	if (choice==2) {
+		cout << "Enjoy your code.";
+	}
+	if (choice==3) {
+		cout << "Enjoy your pepsi.";
+	}
+	if (choice==4) {
+		cout << "Enjoy your sprite.";
+	}
+	if (choice==5) {
+		cout << "Enjoy your juice.";
+	}
+	return 0;
+}
