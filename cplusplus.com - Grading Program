@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int grade;
+
+int main() {
+	cout << "Enter your grade: ";
+	cin >> grade;
+	if (grade==100) {
+		cout << "Perfect score! A+!";
+	}
+	if (grade<100 && grade>=90) {
+		cout << "You scored an A.";
+	}
+	if (grade<90 && grade>=80) {
+		cout << "You scored a B.";
+	}
+	if (grade<80 && grade>=70) {
+		cout << "You scored a C.";
+	}
+	if (grade<70 && grade>=60) {
+		cout << "You scored a D.";
+	}
+	if (grade<60 && grade>=0) {
+		cout << "You scored an F.";
+	}
+	return 0;
+}
+
