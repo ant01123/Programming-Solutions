@@ -1,19 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int input, iterations, x;
-
 int main() {
-	for (x=0; x<10; x++) {
-		cout << "Please enter any number other than " << iterations << ": ";
-		cin >> input;
-		if (input==iterations) {
-			cout << "Hey! you weren't supposed to enter " << input << "!\n";
+	for(int i=0; i<10; ++i) {
+		cout<<"Enter any number other than "<<i<<": ";
+		int userInput;
+		cin>>userInput;
+		if(userInput==i) {
+			cout<<"Hey! you weren't supposed to enter "<<i<<"!";
 			return 0;
 		}
-		iterations++;
 	}
-	cout << "Wow, you're more patient than I am, you win.";
+	cout<<"Wow, you're more patient than I am, you win.";
 	return 0;
 }
-
